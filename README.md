@@ -1,4 +1,4 @@
-#Topic - Created a Maggic Magic website using various SCSS features.
+# Topic - Created a Maggic Magic website using various SCSS features.
 
 ## 1 Functions -  
 Functions enable the creation of elaborate actions on SassScript values, which can be reused in the entire stylesheet. An instance of a function has been established to modify the color of the text in accordance with the background color.
