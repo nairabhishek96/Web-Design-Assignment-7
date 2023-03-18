@@ -8,6 +8,11 @@
 @import '_placeholder';
 
 
+:root{
+   --secondary-color:#1beb10;
+ }
+
+
 * {
    font-family: 'Montserrat', sans-serif;
    margin: 0;
@@ -169,6 +174,8 @@ html {
 }
 
 .about {
+
+   background-color: var(--secondary-color);
 
    span {
       @extend %font-size;

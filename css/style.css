@@ -3,38 +3,18 @@ section {
   padding: 5rem 1rem;
 }
 
-
-nav a {
-  float: left;
-}
-nav a:not(:last-child) {
-  border-right:1px solid grey;
-  margin-right:20px;
-  padding-right:20px;
-}
-
-
-nav a {
-  position: relative; 
-  top: 50%;
-  left: 50%;
-  transform: translate(-100%, -60%);
-}
-
 .link-btn {
   margin-top: 1rem;
   padding: 1rem 3rem;
   display: inline-block;
-  border: 0.1rem solid #a8261f;
-  color: #a8261f
-;
+  border: 0.1rem solid #055632;
+  color: #055632;
   background: none;
   cursor: pointer;
   font-size: 1.7rem;
 }
 .link-btn:hover {
-  background: #a8261f
-;
+  background: #055632;
   color: #fff;
 }
 
@@ -52,8 +32,7 @@ nav a {
 }
 .header.active {
   padding: 2rem 0;
-  background: #a8261f
-;
+  background: #055632;
 }
 .header .nav a {
   font-size: 2rem;
@@ -79,8 +58,7 @@ nav a {
 }
 .footer .logo {
   font-size: 3rem;
-  color: #a8261f
-;
+  color: #055632;
   font-weight: bolder;
 }
 .footer .credit {
@@ -100,20 +78,21 @@ nav a {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  border: 0.1rem solid #a8261f
-;
-  color: #a8261f
-;
+  border: 0.1rem solid #055632;
+  color: #055632;
   margin: 0 0.3rem;
 }
 .footer .share a:hover {
-  background: #a8261f
-;
+  background: #055632;
   color: #fff;
 }
 
 .about span, .home span {
   font-size: 2.5rem;
+}
+
+:root {
+  --secondary-color:#1beb10;
 }
 
 * {
@@ -139,15 +118,7 @@ html::-webkit-scrollbar-track {
   background: transparent;
 }
 html::-webkit-scrollbar-thumb {
-  background: #a8261f
-;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    transform: translateY(-2rem);
-    opacity: 0;
-  }
+  background: #055632;
 }
 
 @keyframes fadeIn {
@@ -178,8 +149,7 @@ html::-webkit-scrollbar-thumb {
   background: #fff;
   text-align: center;
   position: relative;
-  -webkit-animation: fadeIn 0.2s linear;
-          animation: fadeIn 0.2s linear;
+  animation: fadeIn 0.2s linear;
 }
 .login-form form #close-login-form {
   position: absolute;
@@ -194,8 +164,7 @@ html::-webkit-scrollbar-thumb {
 }
 .login-form form .logo {
   font-size: 2.5rem;
-  color: #a8261f
-;
+  color: #055632;
   font-weight: bolder;
 }
 .login-form form h3 {
@@ -208,8 +177,7 @@ html::-webkit-scrollbar-thumb {
 .login-form form .box {
   width: 100%;
   padding: 1.2rem 1.4rem;
-  border: 0.1rem solid #a8261f
-;
+  border: 0.1rem solid #055632;
   font-size: 1.6rem;
   margin: 1rem 0;
 }
@@ -228,8 +196,7 @@ html::-webkit-scrollbar-thumb {
 }
 .login-form form .flex a {
   font-size: 1.5rem;
-  color: #a8261f
-;
+  color: #055632;
   margin-left: auto;
 }
 .login-form form .flex a:hover {
@@ -248,8 +215,7 @@ html::-webkit-scrollbar-thumb {
   margin-bottom: 0;
 }
 .login-form form .account a {
-  color: #a8261f
-;
+  color: #055632;
 }
 .login-form form .account a:hover {
   text-decoration: underline !important;
@@ -274,9 +240,11 @@ html::-webkit-scrollbar-thumb {
   border-color: #fff;
 }
 
+.about {
+  background-color: var(--secondary-color);
+}
 .about span {
-  color: #a8261f
-;
+  color: #055632;
 }
 .about .title {
   padding-top: 1rem;
@@ -306,8 +274,7 @@ html::-webkit-scrollbar-thumb {
 .about .icons-container .icons i {
   font-size: 4rem;
   margin-bottom: 1.5rem;
-  color: #a8261f
-;
+  color: #055632;
 }
 .about .icons-container .icons h3 {
   font-size: 1.5rem;
@@ -329,7 +296,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 0.5rem;
 }
 .menu .box-container .box:hover {
-  background: #f50303;
+  background: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   transform: translateY(-1rem);
 }
@@ -346,15 +313,7 @@ html::-webkit-scrollbar-thumb {
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 2;
-  color: #000000;
-  margin-bottom: 0;
-}
-
-.menu .box-container .box:hover p {
-  padding: 1rem 0;
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #ffffff;
+  color: #666;
   margin-bottom: 0;
 }
 
@@ -365,23 +324,21 @@ html::-webkit-scrollbar-thumb {
   margin-bottom: 3rem;
 }
 .contact .contact-info-container .box {
-  border: 0.1rem solid #a8261f;
+  border: 0.1rem solid #055632;
   padding: 3rem 2rem;
-  border: 0.1rem solid #a8261f ;
+  border: 0.1rem solid #055632;
   text-align: center;
 }
 .contact .contact-info-container .box:hover i {
-  background: #a8261f;
+  background: #055632;
   color: #fff;
 }
 .contact .contact-info-container .box i {
   height: 6rem;
   width: 6rem;
   line-height: 6rem;
-  border: 0.1rem solid #a8261f
-;
-  color: #a8261f
-;
+  border: 0.1rem solid #055632;
+  color: #055632;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -405,21 +362,16 @@ html::-webkit-scrollbar-thumb {
 }
 .contact form .box {
   margin: 0.7rem 0;
-  border: 0.1rem solid #a8261f
-;
+  border: 0.1rem solid #055632;
   font-size: 1.6rem;
   width: 100%;
   padding: 1.2rem 1.4rem;
 }
 .contact form .box:focus {
-  background: #a8261f
-;
+  background: #055632;
   color: #fff;
 }
 .contact form .box:focus::-moz-placeholder {
-  color: #eee;
-}
-.contact form .box:focus:-ms-input-placeholder {
   color: #eee;
 }
 .contact form .box:focus::placeholder {
@@ -432,7 +384,7 @@ html::-webkit-scrollbar-thumb {
 
 .subs {
   border-radius: 50%;
-  border: 3px solid #eed917;
+  border: 3px solid #055632;
 }
 
 @media (max-width: 991px) {
@@ -440,11 +392,9 @@ html::-webkit-scrollbar-thumb {
     font-size: 55%;
     scroll-padding-top: 8rem;
   }
-
   .home h3 {
     font-size: 4rem;
   }
-
   section {
     padding: 3rem 0;
   }
@@ -456,7 +406,6 @@ html::-webkit-scrollbar-thumb {
   .login-form form h3 {
     font-size: 1.7rem;
   }
-
   .header {
     padding: 2rem 2rem;
   }
@@ -488,7 +437,6 @@ html::-webkit-scrollbar-thumb {
     margin: 1rem 2rem;
     color: #222;
   }
-
   .contact .map {
     height: 25rem;
   }
